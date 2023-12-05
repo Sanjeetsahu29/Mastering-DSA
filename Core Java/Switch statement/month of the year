@@ -1,0 +1,48 @@
+import java.util.Scanner;
+public class Month{
+    public static void main(String[] args){
+      Scanner in=new Scanner(System.in);
+      System.out.print("Enter the month's name to know the it position: ");
+      String month=in.next();
+      switch(month){
+        case "january":
+           System.out.println("First month of the year");
+           break;
+        case "february":
+           System.out.println("Sercond month of the year");
+           break;
+        case "march":
+           System.out.println("Third month of the year");
+           break;
+        case "april":
+           System.out.println("Fourth month of the year");
+           break;
+        case "may":
+           System.out.println("Fifth month of the year");
+           break;
+        case "June":
+           System.out.println("Sixth month of the year");
+           break;
+        case "July":
+           System.out.println("Seventh month of the year");
+           break;
+        case "august":
+           System.out.println("Eighted month of the year");
+           break;
+        case "september":
+           System.out.println("Nineth month of the year");
+           break;
+        case "october":
+           System.out.println("Tenth month of the year");
+           break;
+        case "november":
+           System.out.println("Eleventh month of the year");
+           break;
+        case "december":
+           System.out.println("Twelfth month of the year");
+           break;
+        default:
+           System.out.println("Please under the valid month name, consider to enter the month name in lower case only");
+      }
+   }
+}
