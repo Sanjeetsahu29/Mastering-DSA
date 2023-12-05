@@ -1,5 +1,6 @@
 # Array cheatsheet for coding interviews
-![image](https://github.com/Sanjeetsahu29/Mastering-DSA/assets/108270460/1caff0f8-b756-46fa-83a6-b9962cdb0258)
+![photo_2023-12-05_21-21-05](https://github.com/Sanjeetsahu29/Mastering-DSA/assets/108270460/63104301-f581-4a18-b09f-a6a050afef75)
+
 
 The array is a linear Data Structure that holds values of the same type at contiguous memory locations. In an array, we're usually concerned about two things - `the position/index of an element and the element itself.`<br><br>
 ![image](https://github.com/Sanjeetsahu29/Mastering-DSA/assets/108270460/e0d477f4-cb88-4ad3-a0de-144c243458f4)
