@@ -1,3 +1,8 @@
+There are three ways of converting Array to ArrayList
+1. Arrays.asList() method
+2. Collections.addAll() method
+3. Iteration method - create a new list. Iterate the array and add each element to the list
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
