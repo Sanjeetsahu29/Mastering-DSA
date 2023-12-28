@@ -30,3 +30,31 @@ Now for the question: Is Java a completely object-oriented programming language?
 ### Question 8. What is the difference between int array[] and int[] array?
 > There is no difference between array[] and []array. Both array[] and []array are the ways to declare an array. The only difference between them is that if we are declaring more than one array in a line, we should use prefix []. If we are declaring a single array in a line, we should use postfix []. For example, consider the following declaration:![photo_2023-12-28_11-40-31](https://github.com/Sanjeetsahu29/Mastering-DSA/assets/108270460/5dcd919f-ac92-4d7e-b0c3-ec3b66dde522)
 
+### Question 9. How to copy an array in Java?
+> We can create a copy of an array in two ways, first one is manually by iterating over the array and the second one is by using the arrayCopy() method. Using the arrayCopy() method of the System class is the fastest way to copy an array and also allows us to copy a part of the array. These two methods are the popular ways to copy an array.<br>
+> The other two methods to copy an array is to use the Arrays.copyOf() method and using clone() method.
+
+### Question 10. What is the default value of the array?
+> When we create a new array, it always initialized with the default values. The default values of the array are:
+> - If an array is of byte, short, int, and long type, the default value is 0.
+> - If an array is of float and double type, the default value is 0.0
+> - If an array is of Boolean type, the default value is false.
+> - If an array is of an Object type, the default value is null.
+
+### Question 11. What is an anonymous array also give an example?
+> Array reference that is not stored in a variable. It is used in the construction of other objects. Java's Polygon class has a constructor that parses anonymous array as a parameter.
+
+### Question 12. What do you understand by the jagged array?
+> A jagged array is a multidimensional array in which member arrays are of different sizes. For example, int array[][]=new int[3][]. The statement creates a two-dimensional jagged array.
+
+###   Question 14. Consider the following statements and tell that the declaration is true or not. Also, specify the reason?
+![photo_2023-12-28_11-51-38](https://github.com/Sanjeetsahu29/Mastering-DSA/assets/108270460/25c7441a-741e-404b-a5dc-716424c29f13) 
+> The declaration of the above array is true. Because Java allows us to use two different array-specific syntax shortcuts both to initialize (put explicit values into an array's elements) and construct (instantiate the array object itself) in a single statement. The first statement is used to declare, create and initialize in one statement. The second statement does the following four things:
+> - Declares an int array reference variable named number.
+> - Creates an int array with a length of five (five elements).
+> - Populates the array's elements with the values 12, 34, 90, 56, and 65.
+> - Assigns the new array object to the reference variable number.
+
+### Question 15. Can a Set be an array?
+> n Java, a Set is an array, but an array is not necessarily a Set. Because repetition is allowed in array but in Set. For example, consider the following figure:
+![image](https://github.com/Sanjeetsahu29/Mastering-DSA/assets/108270460/27500677-138b-4c1f-95b1-1e0e6c77ce9d)
