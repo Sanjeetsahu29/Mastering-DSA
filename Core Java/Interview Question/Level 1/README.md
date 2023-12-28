@@ -56,5 +56,5 @@ Now for the question: Is Java a completely object-oriented programming language?
 > - Assigns the new array object to the reference variable number.
 
 ### Question 15. Can a Set be an array?
-> n Java, a Set is an array, but an array is not necessarily a Set. Because repetition is allowed in array but in Set. For example, consider the following figure:
-![image](https://github.com/Sanjeetsahu29/Mastering-DSA/assets/108270460/27500677-138b-4c1f-95b1-1e0e6c77ce9d)
+> In Java, a Set is an array, but an array is not necessarily a Set. Because repetition is allowed in array but in Set. For example, consider the following figure:
+![photo_2023-12-28_12-01-19](https://github.com/Sanjeetsahu29/Mastering-DSA/assets/108270460/b4f2990b-d440-42ef-928d-046bfe75f198)
