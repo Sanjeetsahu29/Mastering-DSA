@@ -58,3 +58,9 @@ Now for the question: Is Java a completely object-oriented programming language?
 ### Question 15. Can a Set be an array?
 > In Java, a Set is an array, but an array is not necessarily a Set. Because repetition is allowed in array but in Set. For example, consider the following figure:
 ![photo_2023-12-28_12-01-19](https://github.com/Sanjeetsahu29/Mastering-DSA/assets/108270460/b4f2990b-d440-42ef-928d-046bfe75f198)
+
+### Question 16. What is the difference between Array and ArrayList?
+> - `Array`: Array is static. It is of fixed size. Its size cannot be changed once it is declared. It contains both primitive data types and objects of a class. Array does not have generic features.
+> - `ArrayList`: ArrayList is dynamic in size. Its size or capacity automatically grows when we add element into it. It contains only the object entries. It has a generic feature.
+
+
