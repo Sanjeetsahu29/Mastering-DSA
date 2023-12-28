@@ -28,4 +28,5 @@ Now for the question: Is Java a completely object-oriented programming language?
 > No, it is not possible to declare array size as negative. Still, if we declare the negative size, there will be no compile-time error. But we get the `NegativeArraySizeException` at run-time.
 
 ### Question 8. What is the difference between int array[] and int[] array?
-> There is no difference between array[] and []array. Both array[] and []array are the ways to declare an array. The only difference between them is that if we are declaring more than one array in a line, we should use prefix []. If we are declaring a single array in a line, we should use postfix []. For example, consider the following declaration:
+> There is no difference between array[] and []array. Both array[] and []array are the ways to declare an array. The only difference between them is that if we are declaring more than one array in a line, we should use prefix []. If we are declaring a single array in a line, we should use postfix []. For example, consider the following declaration:![photo_2023-12-28_11-40-31](https://github.com/Sanjeetsahu29/Mastering-DSA/assets/108270460/5dcd919f-ac92-4d7e-b0c3-ec3b66dde522)
+
